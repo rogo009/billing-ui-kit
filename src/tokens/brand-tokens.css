@@ -1,0 +1,52 @@
+/**
+ * Billing UI Kit — brand tokens
+ *
+ * Swap these placeholder values to retheme the app. They map onto Untitled UI
+ * CSS variables consumed by Tailwind utilities (see src/styles/theme.css).
+ */
+:root {
+    /* Brand scale (defaults match Untitled UI purple) */
+    --billing-brand-50: rgb(249 245 255);
+    --billing-brand-100: rgb(244 235 255);
+    --billing-brand-200: rgb(233 215 254);
+    --billing-brand-300: rgb(214 187 251);
+    --billing-brand-400: rgb(182 146 246);
+    --billing-brand-500: rgb(158 119 237);
+    --billing-brand-600: rgb(127 86 217);
+    --billing-brand-700: rgb(105 65 198);
+    --billing-brand-800: rgb(83 56 158);
+    --billing-brand-900: rgb(66 48 125);
+    --billing-brand-950: rgb(44 28 95);
+
+    /* Spacing rhythm (Untitled uses --spacing as 4px base in theme.css) */
+    --billing-space-unit: 4px;
+    --billing-space-2: calc(var(--billing-space-unit) * 2);
+    --billing-space-3: calc(var(--billing-space-unit) * 3);
+    --billing-space-4: calc(var(--billing-space-unit) * 4);
+    --billing-space-6: calc(var(--billing-space-unit) * 6);
+    --billing-space-8: calc(var(--billing-space-unit) * 8);
+
+    /* Corner radius */
+    --billing-radius-sm: 6px;
+    --billing-radius-md: 8px;
+    --billing-radius-lg: 10px;
+    --billing-radius-xl: 12px;
+
+    /* Bridge into Untitled UI theme tokens */
+    --color-brand-50: var(--billing-brand-50);
+    --color-brand-100: var(--billing-brand-100);
+    --color-brand-200: var(--billing-brand-200);
+    --color-brand-300: var(--billing-brand-300);
+    --color-brand-400: var(--billing-brand-400);
+    --color-brand-500: var(--billing-brand-500);
+    --color-brand-600: var(--billing-brand-600);
+    --color-brand-700: var(--billing-brand-700);
+    --color-brand-800: var(--billing-brand-800);
+    --color-brand-900: var(--billing-brand-900);
+    --color-brand-950: var(--billing-brand-950);
+
+    --radius-sm: var(--billing-radius-sm);
+    --radius-md: var(--billing-radius-md);
+    --radius-lg: var(--billing-radius-lg);
+    --radius-xl: var(--billing-radius-xl);
+}
