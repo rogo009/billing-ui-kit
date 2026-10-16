@@ -1,0 +1,49 @@
+/**
+ * Billing UI Kit — editable design tokens.
+ *
+ * Swap these placeholders for your brand. Mappings below feed Untitled UI
+ * theme variables used by Tailwind utility classes (e.g. bg-fg-brand-primary).
+ */
+
+:root {
+    /* Brand palette (RGB channels without rgb() wrapper) */
+    --billing-brand-50: 240 253 250;
+    --billing-brand-100: 204 251 241;
+    --billing-brand-200: 153 246 228;
+    --billing-brand-300: 94 234 212;
+    --billing-brand-400: 45 212 191;
+    --billing-brand-500: 20 184 166;
+    --billing-brand-600: 13 148 136;
+    --billing-brand-700: 15 118 110;
+    --billing-brand-800: 17 94 89;
+    --billing-brand-900: 19 78 74;
+    --billing-brand-950: 4 47 46;
+
+    /* Layout */
+    --billing-space-unit: 4px;
+    --billing-radius-sm: 6px;
+    --billing-radius-md: 8px;
+    --billing-radius-lg: 12px;
+    --billing-radius-xl: 16px;
+
+    /* Map into Untitled UI brand scale */
+    --color-brand-50: rgb(var(--billing-brand-50));
+    --color-brand-100: rgb(var(--billing-brand-100));
+    --color-brand-200: rgb(var(--billing-brand-200));
+    --color-brand-300: rgb(var(--billing-brand-300));
+    --color-brand-400: rgb(var(--billing-brand-400));
+    --color-brand-500: rgb(var(--billing-brand-500));
+    --color-brand-600: rgb(var(--billing-brand-600));
+    --color-brand-700: rgb(var(--billing-brand-700));
+    --color-brand-800: rgb(var(--billing-brand-800));
+    --color-brand-900: rgb(var(--billing-brand-900));
+    --color-brand-950: rgb(var(--billing-brand-950));
+}
+
+@theme inline {
+    --spacing: var(--billing-space-unit);
+    --radius-sm: var(--billing-radius-sm);
+    --radius-md: var(--billing-radius-md);
+    --radius-lg: var(--billing-radius-lg);
+    --radius-xl: var(--billing-radius-xl);
+}
